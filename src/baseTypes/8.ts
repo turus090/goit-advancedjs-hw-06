@@ -3,6 +3,9 @@
   який може містити значення "male", "female". Створіть змінну myGender цього типу.
 */
 
-const myGender;
+enum Gender {
+  Male = "male",
+  Female = "female",
+}
 
-export {};
+const myGender: Gender = Gender.Male;
